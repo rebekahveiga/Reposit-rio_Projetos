@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Repositório</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div>
+        
+        <a class="logo" href="https://github.com/rebekahveiga"><i class="fab fa-github"></i></a>
+        <a class= "logo" href="https://www.linkedin.com/in/rebekah-veiga-52b54b19a/"><i class="fab fa-linkedin"></i></a>
+              
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou a Rebekah Veiga</h2>
+        <span class="home-position">Desenvolvedora JR</span>
+        <span class="home-resume">
+          Graduanda em Engenharia de Automação, 
+          tenho experiência em desenvolvimento Web
+          (React, Asp, JS e outros) e mobile.
+        <button>
+          <a href="#contact">Contate-me </a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/me.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>.....💻.....<br>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/pizza.jpg" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>Sistema Restaurante</h2>
+              <p>Este projeto envolve a criação de um sistema de pizzaria utilizando uma combinação de tecnologias full-stack.</p>
+              <p>Stacks: NodeJS, ReactJS, React Native, TypeScript, JavaScript, CSS e SASS </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/em breve.jpg" alt="Foto de uma loja online">
+            </div>
+            <div class="project-info">
+              <h2>E-commerce</h2>
+              <p>Criação de lojas online de qualquer produto.</p>
+              <p>Stacks: EM breve</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/app tarefas.png" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Aplicativo de Gerenciamento de Tarefas</h2>
+              <p>Aplicativo para controle de tarefas usando React Native.</p>
+              <p>Stacks: JS, HTML, CSS e React Native.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/zeldex.png" alt="Foto de uma Pokedex">
+            </div>
+            <div class="project-info">
+              <h2>Pokedex versão Zelda</h2>
+              <p>Nesse projeto foi criada uma Pokedex versão Zelda, usando tecnologias JS, CSS e HTML. API utilizada para coletar dados dos personagens de Zelda.
+              <p>Stacks: JS, CSS, HTML, API</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/loona.png" alt="Foto de um clone netflix">
+            </div>
+            <div class="project-info">
+              <h2>Netflix Interface</h2>
+              <p>Recriando a interface do Netflix interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript.</p>
+              <p>Stacks: JS, HTML, CSS</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/snakegame.png" alt="Foto de um jogo de cobrinha">
+            </div>
+            <div class="project-info">
+              <h2>Jogo da Cobrinha</h2>
+              <p>Recriando o Jogo da Cobrinha com Javascript.</p>
+              <P>Stacks: JS e HTML</P>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/fuzzy.png" alt="Foto de um clone netflix">
+            </div>
+            <div class="project-info">
+              <h2>Sistema Fuzzy embarcado em uma máquina de lavar roupa</h2>
+              <p>É capaz de controlar corretamente a temperatura da água e tempo do ciclo.</p>
+              <p>Stacks: Python, Colab</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/insta.png" alt="Foto de clone instsgram">
+            </div>
+            <div class="project-info">
+              <h2>Instagram Interface</h2>
+              <p>Nesse projeto foi reconstruído a página inicial de login do Instagram.</p>
+              <p>Stacks: HTML e CSS</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>.....💌.....<br>Contato</h2>
+    <form action="https://formsubmit.co/rebekahcaroline2002@gmail.com"
+          method="POST"
+    >
+        <input type="text" name="name" placeholder="Digite seu nome" />
+        <input type="email" name="email" placeholder="Digite seu e-mail" />
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    email: rebekahcaroline2002@gmail.com <br>
+    wpp: (53)992050289 <br>
+    RS, Brasil
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
