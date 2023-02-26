@@ -1,3 +1,3 @@
-# Reposit-rio_Projetos
+# Repositório_Projetos
 
 link para acessar: https://repositoryrbk.netlify.app
